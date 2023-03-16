@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;700&display=swap');
+
+body{
+  background-color: #1E1E1E;
+  display: flex;
+  flex-direction: column;
+}
+
