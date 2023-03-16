@@ -4,7 +4,7 @@ Application capable of playing songs from the most diverse bands and artists, cr
 
 ### Features developed:
 
- 1. Login Screen still in progress...
+ 1. Login Screen. (Email, name and password validation, still developing a fake API to simulate login credentials).
  2. 
  3. 
  
