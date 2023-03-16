@@ -3,7 +3,7 @@
   color: aliceblue;
   display: flex;
   flex-direction: column;
-  font-family: century, sans-serif;
+  font-family: Century, sans-serif;
   justify-content: center;
 }
 
@@ -59,14 +59,14 @@
 
 @font-face {
   font-family: Century;
-  src: url(./assets/fonts/OPTI-DemiBold/OPTIFuturaDemiBold.otf);
+  src: url(../../assets/fonts/OPTI-DemiBold/OPTIFuturaDemiBold.otf);
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: Century;
-  src: url(./assets/fonts/OPTI-DemiBold/OPTIFutura\ Demibold\ It.ttf);
+  src: url(../../assets/fonts/OPTI-DemiBold/OPTIFutura\ Demibold\ It.ttf);
   font-weight: bold;
   font-style: italic;
 }
