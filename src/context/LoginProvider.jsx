@@ -1,10 +1,11 @@
-
-import React, { useState, useMemo, useEffect, useCallback } from 'react';
+import React, {
+  useState, useMemo,
+} from 'react';
 import PropTypes from 'prop-types';
 import LoginContext from './LoginContext';
 
 export default function LoginProvider({ children }) {
-  const [ login, setLogin ] = useState({
+  const [login, setLogin] = useState({
     email: '',
     password: '',
     name: '',
@@ -19,11 +20,11 @@ export default function LoginProvider({ children }) {
   ]);
 
   return (
-    <LoginContext.Provider value={ values }>
+    <LoginContext.Provider value={values}>
       { children }
     </LoginContext.Provider>
   );
-};
+}
 
 LoginProvider.propTypes = {
   children: PropTypes.node,
