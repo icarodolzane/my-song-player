@@ -1,0 +1,72 @@
+.page_content {
+  align-items: center;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  font-family: century, sans-serif;
+  justify-content: center;
+}
+
+.page_content img {
+  margin-top: 50px;
+  height: 200px;
+  width: 256px;
+
+}
+
+.login_content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login_content label input {
+  background-color: inherit;
+  border: #DBE7E8 0.2px solid;
+  border-radius: 5px;
+  color: #A6F3FF;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  font-size: 20px;
+  font-family: century;
+  font-style: bold;
+  height: 60px;
+  padding-left: 20px;
+  width: 350px;
+}
+
+.login_content label input::placeholder { 
+  color: #FFFFFF;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.login_content button {
+  background-color: #06A0B5;
+  box-shadow: inset 0px -1px 15px -111px rgba(255,255,255,1);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  height: 60px;
+  width: 375px;
+}
+
+.login_content button:disabled{
+  background-color: #446266;
+}
+
+@font-face {
+  font-family: Century;
+  src: url(./assets/fonts/OPTI-DemiBold/OPTIFuturaDemiBold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Century;
+  src: url(./assets/fonts/OPTI-DemiBold/OPTIFutura\ Demibold\ It.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
